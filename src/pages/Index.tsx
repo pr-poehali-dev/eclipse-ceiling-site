@@ -200,7 +200,7 @@ export default function Index() {
           <h2 className="text-4xl font-heading font-bold text-center mb-12">
             Наши работы
           </h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
               {
                 img: 'https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/d0f86288-85a7-4388-b81c-b4c7d51383f1.jpg',
@@ -209,10 +209,6 @@ export default function Index() {
               {
                 img: 'https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/c2d77843-10c9-4153-8908-9f6038596b30.jpg',
                 title: 'Спальня в стиле минимализм',
-              },
-              {
-                img: 'https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/0a9d1da7-bd7c-4a5d-a4a6-e1b3c9b18786.jpg',
-                title: 'Офисное помещение',
               },
             ].map((item, idx) => (
               <Card
