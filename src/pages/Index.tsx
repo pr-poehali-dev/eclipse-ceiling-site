@@ -105,7 +105,7 @@ export default function Index() {
             <div className="relative animate-scale-in">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-secondary/20 to-accent/20 rounded-3xl blur-3xl"></div>
               <img
-                src="https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/0a9d1da7-bd7c-4a5d-a4a6-e1b3c9b18786.jpg"
+                src="https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/d0f86288-85a7-4388-b81c-b4c7d51383f1.jpg"
                 alt="Натяжной потолок"
                 className="relative rounded-3xl shadow-2xl w-full"
               />
