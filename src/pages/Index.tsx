@@ -208,7 +208,7 @@ export default function Index() {
               },
               {
                 img: 'https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/c2d77843-10c9-4153-8908-9f6038596b30.jpg',
-                title: 'Спальня в стиле минимализм',
+                title: 'Спальня в стиле Лофт',
               },
             ].map((item, idx) => (
               <Card
