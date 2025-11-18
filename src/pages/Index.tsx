@@ -246,10 +246,9 @@ export default function Index() {
           <h2 className="text-4xl font-heading font-bold text-center mb-12">
             Наши услуги
           </h2>
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
               { icon: 'Home', title: 'Замер', desc: 'Бесплатный выезд и замер' },
-              { icon: 'Paintbrush', title: 'Дизайн', desc: '3D визуализация проекта' },
               { icon: 'Wrench', title: 'Монтаж', desc: 'Установка за 1 день' },
               { icon: 'Shield', title: 'Гарантия', desc: '10 лет на материалы' },
             ].map((item, idx) => (
