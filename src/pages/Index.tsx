@@ -200,7 +200,7 @@ export default function Index() {
           <h2 className="text-4xl font-heading font-bold text-center mb-12">
             Наши работы
           </h2>
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6">
             {[
               {
                 img: 'https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/d0f86288-85a7-4388-b81c-b4c7d51383f1.jpg',
@@ -209,6 +209,22 @@ export default function Index() {
               {
                 img: 'https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/c2d77843-10c9-4153-8908-9f6038596b30.jpg',
                 title: 'Спальня в стиле Лофт',
+              },
+              {
+                img: 'https://cdn.poehali.dev/projects/1e086c7f-6855-4cb3-b95a-7ce7fa5d6394/files/0a9d1da7-bd7c-4a5d-a4a6-e1b3c9b18786.jpg',
+                title: 'Современная кухня-гостиная',
+              },
+              {
+                img: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80',
+                title: 'Детская комната',
+              },
+              {
+                img: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80',
+                title: 'Квартира-студия',
+              },
+              {
+                img: 'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&q=80',
+                title: 'Спальня в скандинавском стиле',
               },
             ].map((item, idx) => (
               <Card
